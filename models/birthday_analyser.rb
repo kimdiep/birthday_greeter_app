@@ -20,7 +20,13 @@ class BirthdayAnalyser
     current_date = Date.new(current_year, current_month, current_day)
     birthday_date = Date.new(current_year, birth_month, @birth_day)
 
-    days_until = (birthday_date - current_date).to_i
+    if birthday_date > current_date
+      days_until = (birthday_date - current_date).to_i
+
+    elsif birthday_date < current_date
+      days_until = (birthday_date - current_date).to_i + 365
+    end
+
 
     if current_date == birthday_date
       greeting("birthday")

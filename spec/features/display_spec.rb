@@ -12,10 +12,16 @@ feature 'landing page display' do
     expect(page).to have_text( "Happy Birthday Pusheen!")
   end
 
-  scenario 'user has birthday on another day, enters name, day, month and sees days until, greeting' do
+  scenario 'user has birthday which has not been yet, enters name, day, month and sees days until, greeting' do
     visit '/'
-    enter_another_day
+    enter_day_after_current
     expect(page).to have_text("Your birthday will be in 92 days, Pusheen.")
+  end
+
+  scenario 'user has birthday which has already been, enters name, day, month and sees days until, greeting' do
+    visit '/'
+    enter_day_before_current
+    expect(page).to have_text("Your birthday will be in 317 days, Pusheen.")
   end
 
 end
