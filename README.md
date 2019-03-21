@@ -76,6 +76,7 @@ Concrete things
 
 Concepts
 - Understand MVC frameworks
+- Explore how to host my web app
 
 Processes
 - Use test-driven development to test-drive the app. I would like to apply the use of Capybara for feature testing the user flow.
@@ -102,6 +103,8 @@ http://rspec.info/
 
 
 The MVC framework, `Sinatra` will be used to build a simple web app. Ruby will be used as the programming language and HTML in Sinatra views for the user interface.
+
+As a final step, I would like to explore options for hosting my web app.
 
 ## Code Style
 
