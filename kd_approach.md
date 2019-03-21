@@ -23,7 +23,8 @@ As a user, I must be able to type in a day of the month and select the month of 
 
 - When's your Birthday?
   - Day
-    Number input box? - possibly better to have a dropdown options based days in the calendar month?
+    Number input box?
+    Enhancement: possibly better to have a dropdown options based days in the calendar month?
   
   - Month
     Month dropdown selection
