@@ -39,9 +39,21 @@ https://asciiart.website/index.php?art=events/birthday
 
 **To improve my project, next time I would like to:**
 
--
-- 
-- 
+
+I did this project on 21/03/2019 in a morning. Here are the improvements/enhancements I identified for my project:
+
+- Refactor code for model `birthday_analyser.rb` to remove if/else and to improve readability
+- Factor in time-dependent testing in my feature and unit tests
+- Factor in edge cases in my testing to improve validation
+
+  e.g. Validation:
+
+  - At the moment, the user can enter any number into the 'day' field. I would like to make the 'day' field validation (based on a dropdown) based on the month selected.
+  - If the user enters a day/month before the current day/month, the app will show a negative figure, I would like to fix this by showing the number of days until the next date the following year
+
+- Think about the application of the POST route in `app.rb` and how I can redirect this to another view
+- Improve the look and feel of the app
+- Host the app via Heroku or Github Pages
 
 ## Introduction to the project
 
@@ -118,7 +130,7 @@ As a final step, I would like to explore options for hosting my web app.
 
 ## Getting started
 
-`git clone `
+`git clone https://github.com/kimdiep/birthday_greeter_app.git`
 
 ## Running tests
 

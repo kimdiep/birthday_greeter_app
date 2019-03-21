@@ -25,7 +25,7 @@ class BirthdayAnalyser
     if current_date == birthday_date
       greeting("birthday")
     else
-      greeting("future", days_until)
+      greeting("future", days_until) if current_date != birthday_date
     end
   end
 
