@@ -12,10 +12,6 @@ post '/user_birthday' do
   @name = params[:name]
   @birthday_day = params[:day]
   @birthday_month = params[:month]
-  redirect '/greeting'
-end
-
-get '/greeting' do
   erb(:greeting)
 end
 
