@@ -1,0 +1,42 @@
+/* All pages: Main theme */ 
+
+body {
+  background-color: rgb(135,206,250);
+  font-family: 'Anonymous Pro', monospace;
+}
+
+h1 {
+  color: black;
+}
+
+/* Form page */ 
+.landing_message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -150px;
+  margin-left: -100px;
+}
+
+.form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -75px;
+  margin-left: -175px;
+}
+
+input, select {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.greeting {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -75px;
+  margin-left: -350px;
+}

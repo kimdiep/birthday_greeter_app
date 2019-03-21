@@ -1,1 +1,19 @@
-<h4><%= @analysed_birthday %></h4>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Greeting!</title>
+    <link href="<%= url('/normalise.css') %>" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro" rel="stylesheet">
+    <link href="<%= url('/main.css') %>" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+<!-- Greeting -->
+<div class = "greeting">
+  <h1><%= @analysed_birthday %></h1>
+</div>
+</body>
+</html>
