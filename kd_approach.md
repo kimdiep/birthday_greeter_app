@@ -108,7 +108,7 @@ As a user, I must be able to access the birthday greeter web app using a web bro
 
 I thought about hosting technologies, as the user will need to access this via the browser. I also thought about future enhancements and how this would be deployed.
 
-- Hosting?
+I decided to host the app using Heroku. The app was deployed using the Heroku CLI.
 
 
 ## Improvements/enhancements:

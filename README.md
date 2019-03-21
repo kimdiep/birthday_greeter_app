@@ -34,6 +34,11 @@ https://asciiart.website/index.php?art=events/birthday
 
 
 ```
+## How to use the app
+
+The app is available here:
+https://birthday-greeter.herokuapp.com/
+
 ## I documented my approach in 'kd_approach.md' <---- Please read me! :)
 - I documented and explained the processes and approaches I used
 
@@ -117,14 +122,18 @@ http://rspec.info/
 
 The MVC framework, `Sinatra` will be used to build a simple web app. Ruby will be used as the programming language and HTML in Sinatra views for the user interface.
 
-As a final step, I would like to explore options for hosting my web app.
+As a final step, I explored options for hosting my web app.
 
 ## Code Style
 
 
-## How to use the program
+## How to use the app
 
-### 1. Getting Started
+The app is available here:
+https://birthday-greeter.herokuapp.com/
+
+I decided to host the app using Heroku. The app was deployed using the Heroku CLI.
+https://www.heroku.com/home
 
 
 ## Images/Screenshots
