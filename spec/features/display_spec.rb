@@ -1,4 +1,15 @@
+require 'timecop'
+  
 feature 'landing page display' do
+
+  before do
+    Timecop.freeze(2019, 3, 21, 0, 0, 0)
+  end
+
+  after do
+    Timecop.return
+  end
+
   scenario 'user views landing page' do
     visit '/'
     expect(page).to have_text("What's your name?")
