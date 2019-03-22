@@ -10,9 +10,17 @@ class BirthdayGreeter < Sinatra::Base
   end
 
   post '/greeting' do
-    @name = params[:name]
-    @birthday_day = params[:day].to_i
-    @birthday_month = params[:month]
+    session[:name] = params[:name]
+    session[:day] = params[:day].to_i
+    session[:month] = params[:month]
+
+    redirect '/greeting'
+  end
+
+  get '/greeting' do
+    @name = session[:name]
+    @birthday_day = session[:day]
+    @birthday_month = session[:month]
 
     birthday_analyser = BirthdayAnalyser.new(@name, @birthday_day, @birthday_month)
     @analysed_birthday = birthday_analyser.check?

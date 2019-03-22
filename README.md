@@ -54,12 +54,12 @@ I did this project on 21/03/2019 in a morning. Here are the improvements/enhance
   e.g. Validation:
 
   - At the moment, the user can enter any number into the 'day' field. I would like to make the 'day' field validation (based on a dropdown) based on the month selected.
-  - If the user enters a day/month before the current day/month, the app will show a negative figure, I would like to fix this by showing the number of days until the next date the following year
+  - [FIXED] If the user enters a day/month before the current day/month, the app will show a negative figure, I would like to fix this by showing the number of days until the next date the following year
   - How about if the user has a birthday on 29/02 - which is a leap year? How to account for a leap year?
 
-- Think about the application of the POST route in `app.rb` and how I can redirect this to another view
+- [FIXED] Think about the application of the POST route in `app.rb` and how I can redirect this to another view
 - Improve the look and feel of the app
-- Host the app via Heroku or Github Pages
+- [DONE] Host the app via Heroku or Github Pages
 
 ## Introduction to the project
 
