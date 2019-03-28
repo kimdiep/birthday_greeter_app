@@ -11,8 +11,7 @@ describe BirthdayAnalyser do
 
     it 'returns a message if birthday is not today' do
       user_birthday = BirthdayAnalyser.new('Pusheen', TIME.day + 1, 'March')
-      expect(user_birthday.check?).to eq 'Your birthday will be in 1 days,
-      Pusheen.'
+      expect(user_birthday.check?).to eq 'Your birthday will be in 1 days, Pusheen.'
     end
   end
 end
