@@ -1,7 +1,10 @@
+# frozen_string_literal: true
+
 require 'sinatra'
 require 'sinatra/base'
 require_relative 'models/birthday_analyser.rb'
 
+# BirthdayGreeter Class
 class BirthdayGreeter < Sinatra::Base
   enable :sessions
 
@@ -19,13 +22,12 @@ class BirthdayGreeter < Sinatra::Base
 
   get '/greeting' do
     @name = session[:name]
-    @birthday_day = session[:day]
-    @birthday_month = session[:month]
+    @birth_day = session[:day]
+    @birth_month = session[:month]
 
-    birthday_analyser = BirthdayAnalyser.new(@name, @birthday_day, @birthday_month)
+    birthday_analyser = BirthdayAnalyser.new(@name, @birth_day, @birth_month)
     @analysed_birthday = birthday_analyser.check?
 
     erb(:greeting)
   end
-
 end

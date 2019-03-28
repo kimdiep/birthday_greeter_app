@@ -40,15 +40,14 @@ The app is available here:
 https://birthday-greeter.herokuapp.com/
 
 ## I documented my approach in 'kd_approach.md' <---- Please read me! :)
-- I documented and explained the processes and approaches I used
 
 **To improve my project, next time I would like to:**
 
 
 I did this project on 21/03/2019 in a morning. Here are the improvements/enhancements I identified for my project:
 
-- Refactor code for model `birthday_analyser.rb` to remove if/else and to improve readability
-- Factor in time-dependent testing in my feature and unit tests
+- [X] Refactor code for model `birthday_analyser.rb` to remove if/else and to improve readability
+- [X] Factor in time-dependent testing in my feature and unit tests
 - Factor in edge cases in my testing to improve validation
 
   e.g. Validation:
@@ -137,6 +136,12 @@ https://www.heroku.com/home
 
 
 ## Images/Screenshots
+
+<img src="./public/images/Screen Shot 2019-03-21 at 18.03.07.png" width="600" height="400"/>
+
+<img src="./public/images/Screen Shot 2019-03-21 at 18.03.13.png" width="600" height="400"/>
+
+<img src="./public/images/Screen Shot 2019-03-28 at 12.16.01.png" width="600" height="400"/>
 
 ## Getting started
 

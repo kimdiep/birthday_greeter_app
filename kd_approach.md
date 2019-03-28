@@ -115,15 +115,16 @@ I decided to host the app using Heroku. The app was deployed using the Heroku CL
 
 I did this project on 21/03/2019 in a morning. Here are the improvements/enhancements I identified for my project:
 
-- Refactor code for model `birthday_analyser.rb` to remove if/else and to improve readability
-- Factor in time-dependent testing in my feature and unit tests
+- [X] Refactor code for model `birthday_analyser.rb` to remove if/else and to improve readability
+- [X] Factor in time-dependent testing in my feature and unit tests
 - Factor in edge cases in my testing to improve validation
 
   e.g. Validation:
 
   - At the moment, the user can enter any number into the 'day' field. I would like to make the 'day' field validation (based on a dropdown) based on the month selected.
-  - If the user enters a day/month before the current day/month, the app will show a negative figure, I would like to fix this by showing the number of days until the next date the following year
+  - [FIXED] If the user enters a day/month before the current day/month, the app will show a negative figure, I would like to fix this by showing the number of days until the next date the following year
+  - How about if the user has a birthday on 29/02 - which is a leap year? How to account for a leap year?
 
-- Think about the application of the POST route in `app.rb` and how I can redirect this to another view
+- [FIXED] Think about the application of the POST route in `app.rb` and how I can redirect this to another view
 - Improve the look and feel of the app
-- Host the app via Heroku or Github Pages
+- [DONE] Host the app via Heroku or Github Pages
