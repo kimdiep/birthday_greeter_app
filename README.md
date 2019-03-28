@@ -1,6 +1,8 @@
 Birthday Greeter Web App
 ========================
 
+[![Build Status](https://travis-ci.org/kimdiep/birthday_greeter_app.svg?branch=master)](https://travis-ci.org/kimdiep/birthday_greeter_app)
+
 ```
            ~                  ~
      *                   *                *       *
