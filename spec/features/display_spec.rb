@@ -1,6 +1,12 @@
 # frozen_string_literal: true
 
 feature 'landing page display' do
+
+  before(:each) do
+    time_now = Time.new(2019, 4, 27, 1, 1, 1, '+01:00')
+    allow(Time).to receive(:now).and_return(time_now)
+  end
+  
   scenario 'user views landing page' do
     visit '/'
     expect(page).to have_text("What's your name?")
